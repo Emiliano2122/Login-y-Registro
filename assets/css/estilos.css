@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: 'Roboto' sans-serif;
 }
 
 body{
@@ -86,8 +86,8 @@ main{
     position: relative;
     top: -185px;
     left: 10px;
-
     /*La transicion va despues del codigo JS*/
+    transition: left 500ms cubic-bezier(00.175, 0.885, 0.320, 1.275);
 }
 
 .contenedor__login-register form{
